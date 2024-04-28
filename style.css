@@ -1,0 +1,276 @@
+body{
+    padding: 0px;
+    margin:0px;
+}
+/* menu bar */
+.manu-container{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    background-color: black;
+}
+.menu-items{
+    display: flex;
+    
+}
+.menu-items li{
+    list-style: none;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+}
+.menu-items li:hover{
+    color: red;
+    cursor: pointer;
+}
+/* banner background image */
+.banner-container{
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+}
+.banner-container img{
+    width: 100%;
+}
+.banner-description{
+  margin-left: 50px;  
+}
+.banner-text{
+    color: red;
+    font-size: 20px;
+}
+.title1{
+    font-size: 60px;
+    font-weight: bold;
+}
+.text{
+    font-size: 25px;
+    margin: 10px;
+}
+.banner-btn{
+    padding: 18px 38px;
+    background-color:red;
+    margin: 10px;
+    font-size: 25px;
+    color: white;
+    font-weight:bolder;
+    margin-top: 15px;
+    border-radius: 10px;
+    }
+.banner-btn:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+/* section package-description */
+.title2{
+    margin-top: 70px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    text-align: center;
+}
+.package-description{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.box1{
+    width: 270px;
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid gray;
+    padding: 25px;
+    box-shadow: 2px 2px 4px gray;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: .8ms;
+}
+.box1:hover{    
+    transition: .5s;
+    border-radius: 10px;
+    margin-top: -10px;
+    border:1px solid rgb(226,30,30);
+}
+
+.icon img{
+    width: 70px;
+}
+.package-description-text{
+    text-decoration: justify;
+}
+/* about us section */
+.about-section{
+    margin-top: 70px;
+    background-color: black;
+    color: white;
+}
+.about-us{
+    width: 100%;
+    margin: 0 auto;
+    display: flex; 
+    justify-content: space-evenly;
+}
+.about-left{
+    border-top: 1px solid rgb(239, 11, 11);
+    width: 500px;
+}
+.about-img{
+    display: flex;
+}
+.about-img1 img{
+    padding: 20px;
+    margin-top: 50px;
+    height: 500px;
+    transform: skew(-15deg);
+}
+.about-img2 img{
+    padding: 20px;
+    margin-top: 50px;
+    height: 500px;
+    transform: skew(-15deg);
+}
+.about-right{
+    border-top: 1px solid gray;
+    width: 600px;
+}
+.title3{
+    font-size: 43px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.list-container{
+    margin-top: 40px;
+    font-size: 18px;
+    line-height: 1.5;
+    list-style: square;
+}
+.work-inquiry-container{
+    margin-top: 50px;
+    padding: 20px;
+}
+.work-title{
+    color: beige;
+}
+.work-inquiry{
+    width: 700px;
+    margin: 0 auto;
+    height: 200px;
+    background-image: url("./images/shape/Group_33094_1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 25px;
+}
+.chat-btn{
+    padding: 12px 25px;
+    background-color: aqua;
+    font-size: 16px;
+    font-weight: 300;
+    border-radius: 5px;
+    border: none;
+}
+.chat-btn:hover{
+    background-color: burlywood;
+    color: aliceblue;
+}
+.services-container{
+    margin-top: 50px;
+    color: aliceblue;
+    color: black;
+}
+.services{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.service-1{
+    width: 350px;
+    height: 600px;
+    border: 10px;
+    margin: 20px;
+    box-shadow: 8px 8px 16px rgba(0,0,0,0.5);
+    border-radius: 5px;
+
+}
+.service-description{
+    padding: 15px;
+    line-height: 1.5;
+}
+.service-img img{
+    width: 100%;
+    border-radius: 5px;
+}
+.service-footer{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.price-btn{
+    color: red;
+    font-size: 18px;
+}
+.price{
+    font-size: 28px;
+    font-weight: 800;
+}
+.title4{
+    font-size: 25px;
+    font-weight: 600;
+}
+.batch-image{
+    position: relative;
+}
+.batch-image img{
+    top: -30px;
+    left: 85%;
+    width: 70px;
+    position: absolute;
+}
+/* footer start */
+.footer-container{
+    padding: 100px;
+}
+footer{
+    float: left;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 70px;
+}
+.footer h5{
+    margin-top: 50px;
+
+    font-size: 20px;
+    text-align: center;
+    color: blueviolet;
+}
+.footer h5 a{
+    text-decoration: none;
+    color: black;
+
+}
+.footer h5 a:hover{
+    color: brown;
+    text-decoration: underline;
+}
+.footer p{
+    font-size: 18px;
+    text-align: center;
+    color: black;
+}
+.footer p a{
+    color: brown;
+    text-decoration: none;
+}
+.footer p a:hover{
+    color: brown;
+    text-decoration: underline;
+}
+
